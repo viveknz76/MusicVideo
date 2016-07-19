@@ -97,12 +97,10 @@
 		97B0B6481D3E440700A9E026 /* MusicVideo */ = {
 			isa = PBXGroup;
 			children = (
-				97B0B6491D3E440700A9E026 /* AppDelegate.swift */,
-				97B0B64B1D3E440700A9E026 /* ViewController.swift */,
-				97B0B64D1D3E440800A9E026 /* Main.storyboard */,
-				97B0B6501D3E440800A9E026 /* Assets.xcassets */,
-				97B0B6521D3E440800A9E026 /* LaunchScreen.storyboard */,
-				97B0B6551D3E440800A9E026 /* Info.plist */,
+				97B0B67A1D3E468900A9E026 /* Supporting Files */,
+				97B0B6771D3E463D00A9E026 /* Model */,
+				97B0B6781D3E465500A9E026 /* Controller */,
+				97B0B6791D3E466700A9E026 /* View */,
 			);
 			path = MusicVideo;
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				97B0B66B1D3E440800A9E026 /* Info.plist */,
 			);
 			path = MusicVideoUITests;
+			sourceTree = "<group>";
+		};
+		97B0B6771D3E463D00A9E026 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		97B0B6781D3E465500A9E026 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				97B0B64B1D3E440700A9E026 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		97B0B6791D3E466700A9E026 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97B0B64D1D3E440800A9E026 /* Main.storyboard */,
+				97B0B6521D3E440800A9E026 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		97B0B67A1D3E468900A9E026 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97B0B6551D3E440800A9E026 /* Info.plist */,
+				97B0B6501D3E440800A9E026 /* Assets.xcassets */,
+				97B0B6491D3E440700A9E026 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +225,8 @@
 				TargetAttributes = {
 					97B0B6451D3E440700A9E026 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2V9R4KD422;
+						DevelopmentTeamName = "Vivek Sharma (Personal Team)";
 						ProvisioningStyle = Automatic;
 					};
 					97B0B6591D3E440800A9E026 = {
